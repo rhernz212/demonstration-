@@ -14,7 +14,7 @@ for num in 1...100 {
 // create the loop for the fizzbuzz logic
 
 for num in arrayOfNumbers {
-    if num % 15 == 0 { // checked first to avoid printing only fizz when num % 3 == 0 or num % 5 == 0 condition met
+    if num % 15 == 0 { // checked first to avoid printing only fizz or buzz when num % 3 == 0 or num % 5 == 0 condition met
         print("FizzBuzz")
     } else if num % 3 == 0 {
         print("Fizz")
